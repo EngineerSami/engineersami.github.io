@@ -1,0 +1,227 @@
+body{
+    background-image: url(https://i.redd.it/2zfixgyq76881.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+.big{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    
+
+}
+.top-bar{
+    border-radius: 48px;
+   position: relative;
+   background: #060c21;
+    width: 98%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    
+}
+.top-bar:before{
+    content:'' ;
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: #fff;
+    z-index: -1;
+}
+.top-bar:after{
+    content:'' ;
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: #fff;
+    z-index: -2;
+    filter: blur(40px);
+}
+.top-bar:before,
+.top-bar:after
+{
+    border-radius: 48px;
+    background: linear-gradient(235deg,#d200fc,#ffffff,#0051ff);
+}
+.content{
+    padding:20px ;
+    box-sizing: border-box;
+    color: #fff;
+}
+a{
+    font-size: 40px;
+    color: white;
+    margin-top: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+}
+.main{
+    border-radius: 48px;
+   position: relative;
+   background: #060c21;
+    width: 60%;
+    height: 700px;
+    margin-top: 5%;
+    
+}
+.main:before{
+    content:'' ;
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: #fff;
+    z-index: -1;
+}
+.main:after{
+    content:'' ;
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: #fff;
+    z-index: -2;
+    filter: blur(40px);
+}
+.main:before,
+.main:after
+{
+    border-radius: 48px;
+    background: linear-gradient(235deg,#ff5900,#ff5900,#8c00ff);
+}
+.profile-pic{
+    width: 220px;
+    height: 220px;
+    border: 10px solid transparent;
+    padding: 20px;
+    border-radius: 50%;
+    background-image: linear-gradient(to right, rgb(182, 0, 254),rgb(255, 0, 195), rgb(224, 75, 0));
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    margin:10px ;
+}
+h1{
+    font-size: 40px;
+    color: white;
+    margin-top: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    margin-left: 20px;
+}
+p{
+    font-size: 35px;
+    color: white;
+    margin-top: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.location{
+    font-size: 40px;
+    color: white;
+    margin-top: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 500px;
+    height: 500px;
+    perspective: 1000px; 
+    border-radius: 36px;
+    
+    
+  }
+  
+
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 2s;
+    transform-style: preserve-3d;
+    border-radius: 36px;
+  }
+  
+
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+    border-radius: 36px;
+  }
+  
+ 
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 36px;
+  }
+  
+  
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+    border-radius: 36px;
+  }
+  
+  
+  .flip-card-back {
+    background-color: #060c21;
+    color: white;
+    transform: rotateY(180deg);
+    border-radius: 36px;
+  }
+  .Avatar{
+    border-radius: 36px;
+   
+  }
+ .scroll {
+    margin-left: 400px;
+    margin-top: 5%;
+    width: 540px;
+    height:1000px;
+    overflow-y: scroll;
+ 
+}
+
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+  }
+  
+
+  ::-webkit-scrollbar-thumb {
+    background-image: radial-gradient( #060c21,#8c00ff, #ff00bf);
+    border-radius: 10px;
+  }
+  h2{
+    margin-left: 25%;
+    font-size: 40px;
+    
+    color: white;
+    margin-top: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    
+}
