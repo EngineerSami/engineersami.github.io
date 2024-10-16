@@ -1,0 +1,115 @@
+
+* {
+    margin: 0;
+}
+
+body{
+    background-image : url(https://analyticsindiamag.com/wp-content/uploads/2019/05/apps.55787.9007199266246365.687a10a8-4c4a-4a47-8ec5-a95f70d8852d.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+.netflix-icon{
+    margin-top: -4%;
+    margin-left: 7%;
+}
+.login{
+    background-color: black;
+    width: 1000px;
+    height: 1500px;
+    opacity: 75%;
+    margin-left: 35%;
+    margin-top: -5%;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+h1{
+    font-size: 70px;
+    color: white;
+   padding: 11%;
+   
+}
+.user{
+    width: 800px;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    border: 5px solid silver;
+    margin :-10% 0 0 10%;
+    font-size: 50px;
+    border-radius: 15px;
+    color: white;    
+}
+input::placeholder {
+    color: rgb(233, 233, 233);
+    padding: 0px 0px 0px 3px ;
+}
+.btn{
+    width: 800px;
+    height: 100px;
+    background-color: rgb(255, 0, 0);
+    font-size: 50px;
+    color: white;
+    border-radius: 20px;
+    margin :5% 0 0 10%;
+}
+.or{
+    color: white;
+    font-size: 50px;
+    margin :5% 0 0 46%;
+}
+.btn1{
+    width: 800px;
+    height: 100px;
+    background-color: gray;
+    font-size: 50px;
+    color: white;
+    border-radius: 20px;
+    margin :5% 0 0 10%;
+}
+.forgot{
+    color: white;
+    font-size: 50px;
+    margin :5% 0 0 32%;
+}
+.New{
+    color: white;
+    font-size: 50px;
+    margin :5% 0 0 10%;
+    
+}
+span{
+    color: rgb(207, 204, 204);
+}
+.link{
+    text-decoration: none;
+    color: white;
+}
+.cap{
+    color: white;
+    font-size: 40px;
+    margin :5% 0 0 10%;
+}
+.caplink{
+    text-decoration: none;
+    
+}
+.loadingScreen {
+    position: absolute;
+    z-index: 5;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-attachment: fixed;
+      background-size: cover;
+      
+  }
+  

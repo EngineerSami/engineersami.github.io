@@ -1,0 +1,343 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+    background-image : url(https://wallpapercave.com/wp/wp7684851.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+.big{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    
+
+}
+.top-bar{
+    border-radius: 48px;
+   position: relative;
+   background: #060c21;
+    width: 98%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-left: 40px;
+    
+}
+.top-bar:before{
+    content:'' ;
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: #fff;
+    z-index: -1;
+    
+}
+.top-bar:after{
+    content:'' ;
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: #fff;
+    z-index: -2;
+    filter: blur(40px);
+}
+.top-bar:before,
+.top-bar:after
+{
+    border-radius: 48px;
+    background: linear-gradient(235deg,#d200fc,#ffffff,#0051ff);
+    
+}
+.content{
+    padding:20px ;
+    box-sizing: border-box;
+    color: #fff;
+    
+}
+a{
+    font-size: 40px;
+    color: white;
+    margin-top: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    animation:fade-down 2s ;
+}
+.main{
+    border-radius: 48px;
+   position: relative;
+   background-color: #060c21;
+    width: 60%;
+    height: 700px;
+    margin-top: 5%;
+  
+    
+}
+.main:before{
+    content:'' ;
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: #fff;
+    z-index: -1;
+}
+.main:after{
+    content:'' ;
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: #fff;
+    z-index: -2;
+    filter: blur(40px);
+}
+.main:before,
+.main:after
+{
+    border-radius: 48px;
+    background: linear-gradient(235deg,#ff5900,#ff5900,#8c00ff);
+}
+.profile-pic{
+    width: 220px;
+    height: 220px;
+    border: 10px solid transparent;
+    padding: 20px;
+    border-radius: 50%;
+    background-image: linear-gradient(to right, rgb(182, 0, 254),rgb(255, 0, 195), rgb(224, 75, 0));
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    margin:10px ;
+    animation: jump 5s infinite;
+}
+h1{
+    font-size: 40px;
+    color: white;
+    margin-top: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    margin-left: 20px;
+    animation:fade-right 3s ;
+}
+p{
+    font-size: 35px;
+    color: white;
+    margin-top: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    margin-left: 20px;
+    animation:fade-up 5s ;
+}
+.location{
+    font-size: 40px;
+    color: white;
+    margin-top: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    margin-left: 10px;
+    animation:fade-down 5s ;
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 500px;
+    height: 500px;
+    perspective: 1000px; 
+    border-radius: 36px;
+    animation:fade-down 7s ;
+   
+  }
+  
+
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 2s;
+    transform-style: preserve-3d;
+    border-radius: 36px;
+  }
+  
+
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+    border-radius: 36px;
+  }
+  
+ 
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 36px;
+  }
+  
+  
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+    border-radius: 36px;
+  }
+  
+  
+  .flip-card-back {
+    background-color: #060c21;
+    color: white;
+    transform: rotateY(180deg);
+    border-radius: 36px;
+  }
+  .Avatar{
+    border-radius: 36px;
+  
+  }
+ .scroll {
+    margin-left: 25%;
+    margin-top: 5%;
+    width: 540px;
+    height:1000px;
+    overflow-y: scroll;
+    
+}
+
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+  }
+  
+
+  ::-webkit-scrollbar-thumb {
+    background-image: radial-gradient( #060c21,#8c00ff, #ff00bf);
+    border-radius: 10px;
+  }
+  h2{
+    margin-left: 25%;
+    font-size: 40px;
+     animation:fade-down 7s ;
+    color: white;
+    margin-top: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    
+    
+}
+@keyframes fade-down{
+ 0%{
+  opacity: 0;
+  transform: translateY(-1000px) scale(1);
+ } 
+ 100%{
+  opacity: 1;
+  transform: translateY(0px) scale(1);
+ }
+ 
+}
+@keyframes fade-up{
+  0%{
+   opacity: 0;
+   transform: translateY(1000px) scale(1);
+  } 
+  100%{
+   opacity: 1;
+   transform: translateY(0px) scale(1);
+  }
+}
+@keyframes fade-right{
+  0%{
+   opacity: 0;
+   transform: translateX(-1000px) scale(1);
+  } 
+  100%{
+   opacity: 1;
+   transform: translateX(0px) scale(1);
+  }
+}
+.change{
+  border-radius: 48px;
+ position: relative;
+ background: #060c21;
+  width: 200px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  font-size: 60px;
+  color: white;
+  
+}
+.change:before{
+  content:'' ;
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  background: #fff;
+  z-index: -1;
+  
+}
+.change:after{
+  content:'' ;
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  background: #fff;
+  z-index: -2;
+  filter: blur(40px);
+}
+.change:before,
+.change:after
+{
+  border-radius: 48px;
+  background: linear-gradient(235deg,#fc8200,#ff7700,#e600ff);
+  
+}
+.change1{
+  font-size: 60px;
+  margin-top: 0px;
+  
+}
+.loadingScreen {
+  position: absolute;
+  z-index: 5;
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image : url(https://media.istockphoto.com/id/1491344667/vector/blue-and-pink-abstract-blurred-cloudy-background.jpg?s=612x612&w=0&k=20&c=vRM87uuHX90NTTLjUStIoso527ZZKACawl22VbpHoMY=);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+
+@keyframes jump {
+  0% { transform: translateY(0); } /* Starting position */
+  50% { transform: translateY(50px); } /* Jump up */
+  100% { transform: translateY(0); } /* Back to starting position */
+}
